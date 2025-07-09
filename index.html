@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Kirri</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- animation Style -->
+    <link rel="stylesheet" href="css/animation.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#Scrollspy-navbar"
+    data-bs-smooth-scroll="true"
+    tabindex="0"
+  >
+    <!-- start Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary position-fixed fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fs-3 fw-semibold" href="#">Kerri</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            id="Scrollspy-navbar"
+            class="navbar-nav hover-on ms-auto mb-2 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#client">Client</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Home -->
+    <header
+      id="home"
+      class="header min-vh-100 d-flex align-items-center justify-content-center"
+    >
+      <div class="container text-center text-white mt-10">
+        <p class="welcome welcomeMobile">Welcome</p>
+        <h1 class="text-capitalize MainTitle MainTitleMobile">
+          i am
+          <span id="element"></span>
+        </h1>
+        <p class="max-width-500 mx-auto text-muted text-white-50">
+          It is a long established fact that a reader will be of a page when
+          established fact looking at its layout.
+        </p>
+        <a href="#" class="btn btn-header" style="font-size: 18px">
+          Download <abbr title="curriculum vitae">CV</abbr>
+        </a>
+        <div class="pill mx-auto">
+          <span class="dott"></span>
+        </div>
+      </div>
+    </header>
+    <!-- End Home -->
+    <main>
+      <!-- Start About -->
+      <div id="about" class="mt-6">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+              <div class="inner">
+                <div>
+                  <img src="images/about.jpg" class="w-100" alt="About image" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="content">
+                <h2><b>About</b> Me</h2>
+                <h3 style="margin-block: 1rem">
+                  Hello! <strong class="hover-on">I'M Kerri Deo.</strong>
+                </h3>
+                <p class="text-muted">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <p class="text-muted py-2">
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution Of letters, as opposed to using Content
+                  here. content here', making it 100k like readable English.
+                </p>
+                <p class="text-muted">
+                  There are many variations of passages of Lorem Ipsum
+                  available. but the majority have suffered alteration in some
+                  form. by injected humour. or randomised words which don't look
+                  even slightly believable.
+                </p>
+                <div class="about-icons d-flex align-items-center">
+                  <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About -->
+
+      <!-- Start Client -->
+      <div id="client" class="bg-color mt-6 pb-4 pt-6">
+        <div class="container">
+          <div class="content text-center">
+            <h2>Our <b>Client</b></h2>
+            <p class="text-muted max-w-520 m-auto">
+              It is a long established fact that a reader will be of a page when
+              established fact looking at its layout.
+            </p>
+          </div>
+          <div class="slider text-center">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="3000"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleSlidesOnly"
+                  data-bs-slide-to="0"
+                  class="active slide-button"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleSlidesOnly"
+                  data-bs-slide-to="1"
+                  class="slide-button"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleSlidesOnly"
+                  data-bs-slide-to="2"
+                  class="slide-button"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="quots">
+                    <svg
+                      class="svg-inline--fa fa-quote-left fs-1"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="quote-left"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        fill="#e65f73"
+                        d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <img
+                    src="./images/testi-1.jpg"
+                    class="d-block w-70 rounded-circle mx-auto my-3"
+                    alt="..."
+                  />
+                  <div class="carousel-text text-center mt-2">
+                    <p class="text-muted mx-auto sliderp">
+                      " The point of using Lorem Ipsum is that it has a
+                      more-or-less normal distribution of letters, as opposed to
+                      using 'Content here."
+                    </p>
+                    <p>- Ebony <strong>verty,</strong></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="quots">
+                    <svg
+                      class="svg-inline--fa fa-quote-left fs-1"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="quote-left"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        fill="#e65f73"
+                        d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <img
+                    src="./images/testi-2.jpg"
+                    class="d-block w-70 rounded-circle mx-auto my-3"
+                    alt="..."
+                  />
+                  <div class="carousel-text text-center mt-2">
+                    <p class="text-muted mx-auto sliderp">
+                      " The point of using Lorem Ipsum is that it has a
+                      more-or-less normal distribution of letters, as opposed to
+                      using 'Content here."
+                    </p>
+                    <p>- Ebony <strong>verty,</strong></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="quots">
+                    <svg
+                      class="svg-inline--fa fa-quote-left fs-1"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="quote-left"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        fill="#e65f73"
+                        d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <img
+                    src="./images/testi-3.jpg"
+                    class="d-block w-70 rounded-circle mx-auto my-3"
+                    alt="..."
+                  />
+                  <div class="carousel-text text-center mt-2">
+                    <p class="text-muted mx-auto sliderp">
+                      " The point of using Lorem Ipsum is that it has a
+                      more-or-less normal distribution of letters, as opposed to
+                      using 'Content here."
+                    </p>
+                    <p>- Ebony <strong>verty,</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Client -->
+
+      <!-- start portfolio -->
+      <div id="portfolio" class="mt-5">
+        <div class="container">
+          <div class="content text-center">
+            <h2>Our <b>Works</b></h2>
+            <p class="text-muted max-w-520 m-auto">
+              It is a long established fact that a reader will be of a page when
+              established fact looking at its layout.
+            </p>
+          </div>
+          <div class="navsAndTabs">
+            <ul
+              class="nav nav-pills justify-content-center py-5"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-All-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-All"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-All"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Seo-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Seo"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Seo"
+                  aria-selected="false"
+                >
+                  seo
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-WebDesign-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-WebDesign"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-WebDesign"
+                  aria-selected="false"
+                >
+                  webDesign
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Work-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Work"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Work"
+                  aria-selected="false"
+                >
+                  work
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-WordPress-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-WordPress"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-WordPress"
+                  aria-selected="false"
+                >
+                  wordPress
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <!-- All Tap -->
+              <div
+                class="tab-pane fade show active"
+                id="pills-All"
+                role="tabpanel"
+                aria-labelledby="pills-All-tab"
+                tabindex="0"
+              >
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/1.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/6.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/2.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/3.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/4.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/5.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Seo Tap -->
+              <div
+                class="tab-pane fade"
+                id="pills-Seo"
+                role="tabpanel"
+                aria-labelledby="pills-Seo-tab"
+                tabindex="0"
+              >
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/1.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/2.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/5.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- WebDesign Tap -->
+              <div
+                class="tab-pane fade"
+                id="pills-WebDesign"
+                role="tabpanel"
+                aria-labelledby="pills-WebDesign-tab"
+                tabindex="0"
+              >
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/6.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/3.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/4.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Work Tap -->
+              <div
+                class="tab-pane fade"
+                id="pills-Work"
+                role="tabpanel"
+                aria-labelledby="pills-Work-tab"
+                tabindex="0"
+              >
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/1.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/6.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/3.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/4.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- WordPress Tap -->
+              <div
+                class="tab-pane fade"
+                id="pills-WordPress"
+                role="tabpanel"
+                aria-labelledby="pills-WordPress-tab"
+                tabindex="0"
+              >
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/6.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/2.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/3.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="images/5.jpg" class="w-100" alt="" />
+                      <div
+                        class="overlay position-absolute d-flex justify-content-center align-items-center flex-column"
+                      >
+                        <h4>category</h4>
+                        <h5>project title</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End portfolio -->
+      <!-- start Blog -->
+      <div id="blog" class="bg-color mt-5 pb-5 pt-6">
+        <div class="container">
+          <div class="content text-center mb-5">
+            <h2>Our <b>Works</b></h2>
+            <p class="text-muted max-w-520 m-auto">
+              It is a long established fact that a reader will be of a page when
+              established fact looking at its layout.
+            </p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-2 rounded-top-2">
+                  <img src="images/blog-1.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-bold">There are many variations</h5>
+                  <p class="text-muted">
+                    11 March 2018
+                    <span class="mainColor fw-bold">By Kerri</span>
+                  </p>
+                  <p class="text-muted">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies
+                  </p>
+                  <a href="#" class="text-muted text-decoration-none"
+                    ><strong class="text-muted">Read More...</strong></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-2 rounded-top-2">
+                  <img src="images/blog-2.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-bold">There are many variations</h5>
+                  <p class="text-muted">
+                    11 March 2018
+                    <span class="mainColor fw-bold">By Kerri</span>
+                  </p>
+                  <p class="text-muted">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies
+                  </p>
+                  <a href="#" class="text-muted text-decoration-none"
+                    ><strong class="text-muted">Read More...</strong></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="p-2 rounded-top-2">
+                  <img src="images/blog-3.jpg" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-bold">There are many variations</h5>
+                  <p class="text-muted">
+                    11 March 2018
+                    <span class="mainColor fw-bold">By Kerri</span>
+                  </p>
+                  <p class="text-muted">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies
+                  </p>
+                  <a href="#" class="text-muted text-decoration-none"
+                    ><strong class="text-muted">Read More...</strong></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Blog -->
+
+      <!-- start contact -->
+      <div id="contact" class="mt-5 mb-md-5 mb-lg-0">
+        <div class="container">
+          <div class="content text-center">
+            <h2><b>Contact</b> Us</h2>
+            <p class="text-muted max-w-520 m-auto">
+              It is a long established fact that a reader will be of a page when
+              established fact looking at its layout.
+            </p>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="inner d-flex flex-column align-items-center">
+                <div class="mb-3">
+                  <img src="images/mobile.png" width="25px" alt="" />
+                </div>
+                <div class="content d-flex flex-column align-items-center">
+                  <h5><b>Call Us On</b></h5>
+                  <div class="text-muted">+985 123 7856</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-sm-5 py-lg-0">
+              <div class="inner d-flex flex-column align-items-center">
+                <div class="mb-3">
+                  <img src="images/mobile.png" width="25px" alt="" />
+                </div>
+                <div class="content d-flex flex-column align-items-center">
+                  <h5><b>Call Us On</b></h5>
+                  <div class="text-muted">+985 123 7856</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="inner d-flex flex-column align-items-center">
+                <div class="mb-3">
+                  <img src="images/mobile.png" width="25px" alt="" />
+                </div>
+                <div class="content d-flex flex-column align-items-center">
+                  <h5><b>Call Us On</b></h5>
+                  <div class="text-muted">+985 123 7856</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form my-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="inner">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="Mustafa Yunus"
+                    />
+                    <label for="floatingInput">Your Name</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="inner">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Your Email</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="New York"
+              />
+              <label for="floatingInput">Your Subject</label>
+            </div>
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a Message here"
+                id="floatingTextarea2"
+                style="height: 65.5px"
+              ></textarea>
+              <label for="floatingTextarea2">Your Message</label>
+            </div>
+            <div class="w-100 d-flex justify-content-end">
+              <button class="form-btn">send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End contact -->
+
+      <!-- Start spinner -->
+      <div class="sipner">
+        <i class="fa-solid fa-gear text-white fa-spin"></i>
+      </div>
+      <!-- End spinner -->
+    </main>
+    <!-- Type Js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and Start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Developer", "Designer"],
+        typeSpeed: 50 /* speed of write text*/,
+        backSpeed: 50 /* speed of write text when back*/,
+        startDalay: 500 /* when open page, delay 500ms */,
+        backDelay: 500 /* When back after write, delay 500ms */,
+        loop: true /* Don't Stop Typing*/,
+      });
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
